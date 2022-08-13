@@ -2,6 +2,7 @@
     background-image: url(../imagenes/equipocirh1.jpeg);
     background-position: center;
     background-size: cover;
+    filter: brightness(0.9);
     
 }
 
@@ -20,9 +21,48 @@
     bottom: 0;
 
 }
-
 .vh-50{
     height: 50vmin;
+}
+
+/* trabajadores */
+
+
+.card{
+    transition-duration: .6s;
+    clip-path:polygon(
+        50% 0,
+        100% 0,
+        100% 50%,
+        100% 100%,
+        50% 100%,
+        0 100%,
+        0 50%,
+        0 0
+       );
+}
+
+.card-effect:hover .card{
+   clip-path:polygon(
+    50% 0,
+    50% 0,
+    100% 50%,
+    100% 50%,
+    50% 100%,
+    50% 100%,
+    0 50%,
+    0 50%
+   );
+}
+
+.card-effect:hover .card-img-overlay{
+    transform: scale(.9);
+
+}
+
+.card-img-overlay{
+    transition-duration: 0.6s ;
+
 }
 
 .card-img-filter{
