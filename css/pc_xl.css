@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px) {
+
+    
+    #foto{
+        
+        width: 15%;
+     
+    }
+    
+    #foto1{
+      
+        width: 20%;
+        padding: 0 40px 0 40px;
+        border-radius: 20%;
+    }
+
+    #contenedorimg p{
+        font-size: 1rem;
+        border-radius: 20%;
+    }
+        #contenido{
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+    
+        }
+    
+        .contenido h1{
+            font-size: 12rem;
+            text-align: right;
+        }
+
+
+        
+        
+        #texto_div{
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+        
+        #section2 h1{
+            color:#fff;
+            font-size: 12;
+            text-align: right;
+        }
+    
+    
+    
+    
+        #form{
+            float: middle;
+    
+        }
+            
+        }
+    

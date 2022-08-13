@@ -1,0 +1,108 @@
+:root{
+    --color-bue-medium: #222;
+    --color-black: #000;
+    
+
+}
+
+/* estilos generales */
+ a{
+    color: #000;
+}
+
+.container > .row {
+    margin-bottom: 3rem;
+    
+}
+
+
+
+
+
+/* sections */
+/* Nav */
+.navbar-brand > img{
+    width: 55px;
+    
+}
+/* para que todos los elementos activos tengan un text-decoration  */
+.navbar-main .active{
+    text-decoration: underline wavy var(--color-black);
+    text-underline-offset: 9px;
+}
+
+
+/* redes sociales */
+.icons-social-networks > a{
+    /* variable */
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s filter;
+
+}
+.sec-lenguajes > a:hover{
+    filter: opacity(0.5);
+    transition: 0.5s filter;
+}
+
+
+
+/* efecto opacidad */
+.icons-social-networks > a:hover .sec-lenguajes{
+    filter: opacity(0.5);
+
+}
+
+
+.bg-facebook{
+    background-color: #023693;
+}
+
+.bg-instagram{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bg-whatsapp{
+    background-color: rgb(30, 255, 0);
+}
+/* centrar elementos */
+
+.header-main{
+    min-height: 100vh ;
+
+}
+
+/* seccion servicios */
+.icon-service{
+    --box-size: 70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+
+
+}
+
+/* experiencia */
+
+.bg-purple{
+    background-color: rgba(13, 87, 235 / 0.3);
+    filter: opacity(0.55);
+}
+
+@media screen and (max-width: 370px) {
+    
+    body{
+        margin-top: 4rem;
+    }
+
+.header-main{
+    height: initial;
+
+}
+
+}
