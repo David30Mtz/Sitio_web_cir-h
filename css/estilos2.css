@@ -69,3 +69,10 @@
     filter: brightness(0.5);
 
 }
+
+/* telefono */
+@media screen and (max-width: 375px) {
+    .vh-50{
+        height: 50vmax;
+    }
+}
