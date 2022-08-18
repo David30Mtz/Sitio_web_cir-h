@@ -1,0 +1,34 @@
+.header{
+    background-image: url(../imagenes/cirh3.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+    
+}
+
+.img-logo{
+    width: 40px;;
+}
+
+.header::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.vh-50{
+    height: 60vmin;
+}
+
+
+/* telefono */
+@media screen and (max-width: 375px) {
+    .vh-50{
+        height: 50vmax;
+    }
+}
